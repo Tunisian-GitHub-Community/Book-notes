@@ -25,4 +25,9 @@ Design patterns are programming language independent strategies for solving a co
 `Favor composition over inheritance`  
 `Take what varies and encapsulate them so it won't affect the rest of the code.`  
 `Program to an interface, not an implementation.`  
-`The diffrent behaviors will live in a seperate class (AKA interface)`
+`The diffrent behaviors will live in a seperate class (AKA interface)`  
+
+## the Observer Pattern  
+* When the state of one object changes, all of its dependents are notified.  
+`Strive for loosely coupled designs between objects that interact.`  
+`Loosely coupled designs allow us to build flexible OO systems that can handle change because they minimize the interdependency between objects.`
