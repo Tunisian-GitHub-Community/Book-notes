@@ -10,14 +10,14 @@ Design patterns are programming language independent strategies for solving a co
 3. [the Factory Pattern](#the-Factory-Pattern)
 4. [the Singleton Pattern](#the-Singleton-Pattern)
 5. [the Command Pattern](#the-Command-Pattern)
-6. the Adapter and Facade Patterns
-7. the Template Method Pattern
-8. the Iterator and Composite Patterns
-9. the State Pattern
-10. the Proxy Pattern
-11. Compound Patterns
-12. Better Living with Patterns
-13. Appendix: Leftover Patterns  
+6. [the Adapter and Facade Patterns](#the-Adapter-and-Facade-Patterns)
+7. [the Template Method Pattern](#the-Template-Method-Pattern)
+8. [the Iterator and Composite Patterns](#the-Iterator-and-Composite-Patterns)
+9. [the State Pattern](#the-State-Pattern)
+10. [the Proxy Pattern](#the-Proxy-Pattern)
+11. [Compound Patterns](#Compound-Patterns)
+12. [Better Living with Patterns](#Better-Living-with-Patterns)
+13. [Appendix: Leftover Patterns](#Appendix:-Leftover-Patterns)
 
 ## the Strategy Pattern 
 * A localized update to the super class can cause a non local side effect (flying rubber ducks!).  
@@ -31,3 +31,7 @@ Design patterns are programming language independent strategies for solving a co
 * When the state of one object changes, all of its dependents are notified.  
 `Strive for loosely coupled designs between objects that interact.`  
 `Loosely coupled designs allow us to build flexible OO systems that can handle change because they minimize the interdependency between objects.`
+
+## the Decorator Pattern  
+`Classes should be open for extension, but closed for modification`
+* The decorator Pattern attacks additional responsabilities to an object dynamically.
