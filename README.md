@@ -17,7 +17,7 @@ Design patterns are programming language independent strategies for solving a co
 10. [the Proxy Pattern](#the-Proxy-Pattern)
 11. [Compound Patterns](#Compound-Patterns)
 12. [Better Living with Patterns](#Better-Living-with-Patterns)
-13. [Appendix: Leftover Patterns](#Appendix:-Leftover-Patterns)
+13. [Leftover Patterns](#Leftover-Patterns)
 
 ## the Strategy Pattern 
 * A localized update to the super class can cause a non local side effect (flying rubber ducks!).  
@@ -34,4 +34,8 @@ Design patterns are programming language independent strategies for solving a co
 
 ## the Decorator Pattern  
 `Classes should be open for extension, but closed for modification`
-* The decorator Pattern attacks additional responsabilities to an object dynamically.
+* The decorator Pattern attacks additional responsabilities to an object dynamically.  
+
+## the Factory Pattern  
+* The factory pattern lets a class defer instantiation to subclasses.  
+`Depend upon abstractions. Do not depend upon concrete classes`
