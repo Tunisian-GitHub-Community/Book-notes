@@ -1,6 +1,6 @@
 # Design patterns notebook
 ![Alt text](banner.jpg?raw=true "Banner")
-These are my notes I took from the 'Head first design patterns' book with the help of the [Christopher Okhravi](https://www.youtube.com/c/ChristopherOkhravi) youtube channel. 
+These are my notes I took from the 'Head first design patterns' book and [Christopher Okhravi](https://www.youtube.com/c/ChristopherOkhravi) YouTube videos. 
 ## What is meant by design patterns?  
 Design patterns are programming language independent strategies for solving a common problem. That means a design pattern represents an idea, not a particular implementation. By using design patterns, you can make your code more flexible, reusable, and maintainable.    
 ### Patterns
@@ -38,4 +38,10 @@ Design patterns are programming language independent strategies for solving a co
 
 ## the Factory Pattern  
 * The factory pattern lets a class defer instantiation to subclasses.  
-`Depend upon abstractions. Do not depend upon concrete classes`
+`Depend upon abstractions. Do not depend upon concrete classes`  
+
+## the Singleton Pattern  
+* The Singleton pattern ensures you have at most one instance of a class in your application.  
+* It also provides a global access point to that instance.  
+    → When you need to ensure you only have one instance of a class running around your app, turn to the singleton.  
+`Classes should be open for extension but closed for modification`  
