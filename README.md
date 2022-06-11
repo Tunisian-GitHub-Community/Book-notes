@@ -45,3 +45,7 @@ Design patterns are programming language independent strategies for solving a co
 * It also provides a global access point to that instance.  
     → When you need to ensure you only have one instance of a class running around your app, turn to the singleton.  
 `Classes should be open for extension but closed for modification`  
+
+## the Command Pattern  
+* The Command pattern encapsulates a reqeust as an object, there by letting you parametrize other objects with diffrent requests, queue or log requests and support undorable operations.  
+* The Command pattern decouples and object, making a request from the one that knows how to perform it.  
