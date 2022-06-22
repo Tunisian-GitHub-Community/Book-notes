@@ -41,8 +41,11 @@ Example: You subscribe to a newspaper; you notify them that you want to be a sub
 `Loosely coupled designs allow us to build flexible OO systems that can handle change because they minimize the interdependency between objects.`
 
 ## the Decorator Pattern  
-`Classes should be open for extension, but closed for modification`
-* The decorator Pattern attacks additional responsabilities to an object dynamically.  
+The Decorator Pattern attaches additional responsibilities to an object dynamically. Decorators provide a flexible alternative to subclassing for extending functionality.  
+
+Example: You have a superclass that have a hundreds of subclasses that are nearly the same (they have a 1% diffrence between each other).  
+    → We need to allow classes to be easily extended to incorporate new behavior without modifying existing code But how ? The answer is to wrap the subclass with decorators.  
+`Classes should be open for extension, but closed for modification` 
 
 ## the Factory Pattern  
 * The factory pattern lets a class defer instantiation to subclasses.  
