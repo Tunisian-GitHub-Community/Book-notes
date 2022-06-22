@@ -22,7 +22,7 @@ Design patterns are programming language independent strategies for solving a co
 ## the Strategy Pattern  
 The Strategy Pattern defines a family of algorithms, encapsulates each one, and makes them interchangeable. Strategy lets the algorithm vary independently clients that use it.  
 * A localized update to the super class can cause a non local side effect.  
-Exemple: Imagine having a superclass called `Duck` from which all other duck types inherit. to this point everything looks fine but when we have a `fly()` method and a subclass called `rubber ducks` there will be a problem: rubber ducks don't fly !).    
+Example: Imagine having a superclass called `Duck` from which all other duck types inherit. to this point everything looks fine but when we have a `fly()` method and a subclass called `rubber ducks` there will be a problem: rubber ducks don't fly !).    
 
     → We can extract the methodes that make the diffrence and make the subclasses override them, But in a bigger scale it will be a mess. No matter how well you design your application, over time an application must grow and change or it will die.    
     → The better solution is to `take what varies and encapsulate them so it won't affect the rest of the code.`
@@ -32,7 +32,11 @@ Exemple: Imagine having a superclass called `Duck` from which all other duck typ
 `The diffrent behaviors will live in a seperate class (AKA interface)`  
 
 ## the Observer Pattern  
-* When the state of one object changes, all of its dependents are notified.  
+The Observer Pattern defines a one-to-many dependency between objects so that when one object changes state, all of its dependents are notified and updated automatically.
+
+* This pattern have 2 elements: `the subject` & `the observers`. These two have a publisher-subscribers relationship.  
+Example: You subscribe to a newspaper; you notify them that you want to be a subscriber and pay them; so the newspaper (aka the publisher) will send you newspaper as long as you don't unsubscribe; in other words if you want to unsubscribe you need to notify the publisher.    
+    → When the state of one object changes, all of its dependents are notified.  
 `Strive for loosely coupled designs between objects that interact.`  
 `Loosely coupled designs allow us to build flexible OO systems that can handle change because they minimize the interdependency between objects.`
 
