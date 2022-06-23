@@ -48,8 +48,14 @@ Example: You have a superclass that have a hundreds of subclasses that are nearl
 `Classes should be open for extension, but closed for modification` 
 
 ## the Factory Pattern  
-* The factory pattern lets a class defer instantiation to subclasses.  
+The Factory Method Pattern defines an interface for creating an object, but lets subclasses decide which class to instantiate. Factory Method lets a class defer instantiation to subclasses.  
+
+Example: Imagine you have a class to create pizzas that have bunch of `If` statements inside, we take those lines of code and place them inside another subclass (this class is what we call a `Factory` so we can say that factories handle the details of object creation) and call it inside our class. This will abstract the code and make it easier to read and understand.  
 `Depend upon abstractions. Do not depend upon concrete classes`  
+### the `abstract` Factory Pattern  
+The Abstract Factory Pattern provides an interface for creating families of related or dependent objects without specifying their concrete classes.  
+
+* We’ve certainly seen that Abstract Factory allows a client to use an abstract interface to create a set of related products without knowing (or caring) about the concrete products that are actually produced. In this way, the client is decoupled from any of the specifics of the concrete products. Abstract Factory relies on object composition: object creation is implemented in methods exposed in the factory interface.    
 
 ## the Singleton Pattern  
 * The Singleton pattern ensures you have at most one instance of a class in your application.  
