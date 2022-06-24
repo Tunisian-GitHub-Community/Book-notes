@@ -66,5 +66,8 @@ The Singleton Pattern ensures 2 things to happen:
 Note: No one really use this pattern anymore but it's a good thing to know about it.  
 
 ## the Command Pattern  
-* The Command pattern encapsulates a reqeust as an object, there by letting you parametrize other objects with diffrent requests, queue or log requests and support undorable operations.  
-* The Command pattern decouples and object, making a request from the one that knows how to perform it.  
+The Command Pattern encapsulates a request as an object, thereby letting you parameterize other objects with different requests, queue or log requests, and support undoable operations.  
+* When you need to decouple an object making requests from the objects that know how to perform the requests, use the Command Pattern.  
+* A Command object is at the center of this decoupling and encapsulates a receiver with an action (or set of actions).  
+* An invoker makes a request of a Command object by calling its `execute()` method, which invokes those actions on the receiver.  
+* Invokers can be parameterized with Commands, even dynamically at runtime.  
