@@ -57,11 +57,13 @@ The Abstract Factory Pattern provides an interface for creating families of rela
 
 * We’ve certainly seen that Abstract Factory allows a client to use an abstract interface to create a set of related products without knowing (or caring) about the concrete products that are actually produced. In this way, the client is decoupled from any of the specifics of the concrete products. Abstract Factory relies on object composition: object creation is implemented in methods exposed in the factory interface.    
 
-## the Singleton Pattern  
-* The Singleton pattern ensures you have at most one instance of a class in your application.  
-* It also provides a global access point to that instance.  
-    → When you need to ensure you only have one instance of a class running around your app, turn to the singleton.  
+## the Singleton Pattern    
+The Singleton Pattern ensures 2 things to happen:  
+* a class that has only one instance.  
+* that class should provide a global point of access to it.  
+
 `Classes should be open for extension but closed for modification`  
+Note: No one really use this pattern anymore but it's a good thing to know about it.  
 
 ## the Command Pattern  
 * The Command pattern encapsulates a reqeust as an object, there by letting you parametrize other objects with diffrent requests, queue or log requests and support undorable operations.  
