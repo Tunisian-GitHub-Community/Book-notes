@@ -71,3 +71,16 @@ The Command Pattern encapsulates a request as an object, thereby letting you par
 * A Command object is at the center of this decoupling and encapsulates a receiver with an action (or set of actions).  
 * An invoker makes a request of a Command object by calling its `execute()` method, which invokes those actions on the receiver.  
 * Invokers can be parameterized with Commands, even dynamically at runtime.  
+
+## the Adapter and Facade Patterns  
+the two patterns changes an interface, the Adapter to convert and the Facade to unify and simplify.  
+### the Adapter Pattern  
+The Adapter Pattern converts the interface of a class into another interface the clients expect. Adapter lets classes work together that couldn’t otherwise because of incompatible interfaces.  
+* We could use several adapters, each converting a different backend set of classes. Or, we could add new implementations after the fact, as long as they adhere to the Target interface.  
+* There are actually two kinds of adapters: `object` adapters and `class` adapters.  
+    → Object adapters and class adapters use two different means of adapting the adaptee (composition versus inheritance).  
+### the Facade Pattern  
+The Facade Pattern provides a unified interface to a set of interfaces in a subsytem. Facade defines a higherlevel interface that makes the subsystem easier to use.  
+`Principle of Least Knowledge - talk only to your immediate friends` 
+
+
