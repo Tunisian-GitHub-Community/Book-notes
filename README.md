@@ -81,6 +81,10 @@ The Adapter Pattern converts the interface of a class into another interface the
     → Object adapters and class adapters use two different means of adapting the adaptee (composition versus inheritance).  
 ### the Facade Pattern  
 The Facade Pattern provides a unified interface to a set of interfaces in a subsytem. Facade defines a higherlevel interface that makes the subsystem easier to use.  
-`Principle of Least Knowledge - talk only to your immediate friends` 
-
-
+`Principle of Least Knowledge - talk only to your immediate friends`  
+## the Template Method Pattern  
+The Template Method Pattern defines the skeleton of an algorithm in a method, deferring some steps to subclasses. Template Method lets subclasses redefine certain steps of an algorithm without changing the algorithm’s structure.  
+* The template method makes use of the `primitiveOperations` to implement an algorithm. It is decoupled from the actual implementation of these operations.  
+`The Hollywood Principle - Don’t call us, we’ll call you. `  
+Meaning: When you have high-level components depending on low-level components depending on high-level components depending on sideways components depending on low-level components, and so on `the dependency rot` happens, and when it sets in no one can easily understand the way a system is designed.  
+    → With the Hollywood Principle, we allow low-level components to hook themselves into a system, but the high-level components determine when they are needed, and how. In other words, the high-level components give the low-level components a “don’t call us, we’ll call you” treatment.  
