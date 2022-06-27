@@ -88,3 +88,16 @@ The Template Method Pattern defines the skeleton of an algorithm in a method, de
 `The Hollywood Principle - Don’t call us, we’ll call you. `  
 Meaning: When you have high-level components depending on low-level components depending on high-level components depending on sideways components depending on low-level components, and so on `the dependency rot` happens, and when it sets in no one can easily understand the way a system is designed.  
     → With the Hollywood Principle, we allow low-level components to hook themselves into a system, but the high-level components determine when they are needed, and how. In other words, the high-level components give the low-level components a “don’t call us, we’ll call you” treatment.  
+
+## the Iterator and Composite Patterns  
+### the Iterator Pattern  
+The Iterator Pattern provides a way to access the elements of an aggregate object sequentially without exposing its underlying representation.  
+* The Iterator Pattern allows traversal of the elements of an aggregate without exposing the underlying implementation.  
+* It also places the task of traversal on the iterator object, not on the aggregate, which simplifies the aggregate interface and implementation, and places the responsibility where it should be.  
+`A class should have only one reason to change`   
+* Every responsibility of a class is an area of potential change. More than one responsibility means more than one area of change.  
+    → This principle guides us to keep each class to a single responsibility.  
+### the Composite Pattern  
+The Composite Pattern allows you to compose objects into tree structures to represent part-whole hierarchies. Composite lets clients treat individual objects and compositions of objects uniformly.  
+* The Composite Pattern allows us to build structures of objects in the form of trees that contain both compositions of objects and individual objects as nodes.  
+    → Using a composite structure, we can apply the same operations over both composites and individual objects. In other words, in most cases we can ignore the differences between compositions of objects and individual objects.  
