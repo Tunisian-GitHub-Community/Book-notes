@@ -101,3 +101,8 @@ The Iterator Pattern provides a way to access the elements of an aggregate objec
 The Composite Pattern allows you to compose objects into tree structures to represent part-whole hierarchies. Composite lets clients treat individual objects and compositions of objects uniformly.  
 * The Composite Pattern allows us to build structures of objects in the form of trees that contain both compositions of objects and individual objects as nodes.  
     → Using a composite structure, we can apply the same operations over both composites and individual objects. In other words, in most cases we can ignore the differences between compositions of objects and individual objects.  
+## the State Pattern  
+The State Pattern allows an object to alter its behavior when its internal state changes. The object will appear to change its class.  
+* The Context gets its behavior by delegating to the current state object it is composed with.  
+* By encapsulating each state into a class, we localize any changes that will need to be made.  
+* The State and Strategy Patterns have the same class diagram, but they differ in intent: Strategy Pattern typically configures Context classes with a behavior or algorithm while State Pattern allows a Context to change its behavior as the state of the Context changes.  
