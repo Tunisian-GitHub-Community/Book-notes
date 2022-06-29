@@ -106,3 +106,12 @@ The State Pattern allows an object to alter its behavior when its internal state
 * The Context gets its behavior by delegating to the current state object it is composed with.  
 * By encapsulating each state into a class, we localize any changes that will need to be made.  
 * The State and Strategy Patterns have the same class diagram, but they differ in intent: Strategy Pattern typically configures Context classes with a behavior or algorithm while State Pattern allows a Context to change its behavior as the state of the Context changes.  
+
+## the Proxy Pattern  
+The Proxy Pattern provides a surrogate or placeholder for another object to control access to it.  
+* We use the Proxy Pattern to create a representative object that controls access to another object, which may be remote, expensive to create or in need of securing.  
+* Proxy is structurally similar to Decorator, but the two differ in their purpose: The Decorator Pattern adds behavior to an object, while a Proxy controls access.  
+* A `Remote` Proxy manages interaction between a client and a remote object.  
+* A `Virtual` Proxy controls access to an object that is expensive to instantiate.  
+* A `Protection` Proxy controls access to the methods of an object based on the caller.  
+* Many other variants of the Proxy Pattern exist including caching proxies, synchronization proxies, firewall proxies, copy-on-write proxies etc...   
