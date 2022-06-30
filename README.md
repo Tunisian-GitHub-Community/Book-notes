@@ -1,6 +1,7 @@
 # Design patterns notebook
 ![Alt text](banner.jpg?raw=true "Banner")
-These are my notes I took from the 'Head first design patterns' book and [Christopher Okhravi](https://www.youtube.com/c/ChristopherOkhravi) YouTube videos. 
+These are my notes I took from the 'Head first design patterns' book and [Christopher Okhravi](https://www.youtube.com/c/ChristopherOkhravi) YouTube videos.  
+**Note**: These are just notes from the book, it's totally normal if you didn't understand some things here, the book explain them to the absolute limit (totally recommend reading it).  
 ## What is meant by design patterns?  
 Design patterns are programming language independent strategies for solving a common problem. That means a design pattern represents an idea, not a particular implementation. By using design patterns, you can make your code more flexible, reusable, and maintainable.    
 ### Patterns
@@ -17,7 +18,6 @@ Design patterns are programming language independent strategies for solving a co
 10. [the Proxy Pattern](#the-Proxy-Pattern)
 11. [Compound Patterns](#Compound-Patterns)
 12. [Better Living with Patterns](#Better-Living-with-Patterns)
-13. [Leftover Patterns](#Leftover-Patterns)
 
 ## the Strategy Pattern  
 The Strategy Pattern defines a family of algorithms, encapsulates each one, and makes them interchangeable. Strategy lets the algorithm vary independently clients that use it.  
@@ -122,3 +122,11 @@ Patterns are often used together and combined within the same design solution. A
     → The model makes use of the Observer Pattern so that it can keep observers updated yet stay decoupled from them.    
     → The controller is the strategy for the view. The view can use different implementations of the controller to get different behavior.  
     → The view uses the Composite Pattern to implement the user interface, which usually consists of nested components like panels, frames and buttons.  
+
+## Better Living with Patterns
+A Pattern is a solution to a problem in a context.  
+The `context`: the situation in which the pattern applies. This should be a recurring situation.  
+The `problem`: the goal you are trying to achieve in this context, but it also refers to any constraints that occur in the context.  
+The `solution`: a general design that anyone can apply which resolves the goal and set of constraints.  
+An Anti-Pattern tells you how to go from a problem to a BAD solution.  
+    → An anti-pattern always looks like a good solution, but then turns out to be a bad solution when it is applied.  
