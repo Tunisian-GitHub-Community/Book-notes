@@ -1,4 +1,4 @@
-# Design patterns
+# Design patterns 
 ![banner img](https://i.ibb.co/dLJfb43/banner.jpg)
 These are my notes I took from the [Head first design patterns](https://books.google.tn/books/about/Head_First_Design_Patterns.html?id=GGpXN9SMELMC&printsec=frontcover&source=kp_read_button&hl=en&redir_esc=y#v=onepage&q&f=false) book and [Christopher Okhravi](https://www.youtube.com/c/ChristopherOkhravi) YouTube videos.  
 **Note**: These are just notes from the book, it's totally normal if you didn't understand some things here, the book explain them to the absolute limit (totally recommend reading it).  
@@ -115,4 +115,7 @@ The `context`: the situation in which the pattern applies. This should be a recu
 The `problem`: the goal you are trying to achieve in this context, but it also refers to any constraints that occur in the context.  
 The `solution`: a general design that anyone can apply which resolves the goal and set of constraints.  
 An Anti-Pattern tells you how to go from a problem to a BAD solution.  
-    → An anti-pattern always looks like a good solution, but then turns out to be a bad solution when it is applied.  
+    → An anti-pattern always looks like a good solution, but then turns out to be a bad solution when it is applied.    
+
+-----------------------------------------
+These notes were written by [Ayoub Abidi](https://github.com/ayoub3bidi)
