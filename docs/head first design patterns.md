@@ -9,7 +9,6 @@ Design patterns are programming language independent strategies for solving a co
 The Strategy Pattern defines a family of algorithms, encapsulates each one, and makes them interchangeable. Strategy lets the algorithm vary independently clients that use it.  
 * A localized update to the super class can cause a non local side effect.  
 Example: Imagine having a superclass called `Duck` from which all other duck types inherit. to this point everything looks fine but when we have a `fly()` method and a subclass called `rubber ducks` there will be a problem: rubber ducks don't fly !).    
-
     → We can extract the methodes that make the diffrence and make the subclasses override them, But in a bigger scale it will be a mess. No matter how well you design your application, over time an application must grow and change or it will die.    
     → The better solution is to `take what varies and encapsulate them so it won't affect the rest of the code.`
 
