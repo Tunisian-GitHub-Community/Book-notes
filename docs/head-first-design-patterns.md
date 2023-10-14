@@ -1,3 +1,7 @@
+---
+sidebar_position: 2
+---
+
 # Design patterns 
 ![banner img](https://i.ibb.co/dLJfb43/banner.jpg)
 These are my notes I took from the [Head first design patterns](https://books.google.tn/books/about/Head_First_Design_Patterns.html?id=GGpXN9SMELMC&printsec=frontcover&source=kp_read_button&hl=en&redir_esc=y#v=onepage&q&f=false) book and [Christopher Okhravi](https://www.youtube.com/c/ChristopherOkhravi) YouTube videos.  
