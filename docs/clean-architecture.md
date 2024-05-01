@@ -4,7 +4,7 @@ sidebar_position: 4
 
 # Clean Architecture
 ![banner img](https://images.unsplash.com/photo-1493397212122-2b85dda8106b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2071&q=80)
-These are my notes from [Clean Architecture](https://www.google.tn/books/edition/The_Non_Designer_s_Design_Book/gUWPBQAAQBAJ?hl=en&gbpv=0) Book by Robert C. Martin (AKA uncle BOB).
+These are my notes from [Clean Architecture: A Craftsman's Guide to Software Structure and Design](https://books.google.tn/books/about/Clean_Architecture.html?id=uGE1DwAAQBAJ) Book by Robert C. Martin (AKA uncle BOB).
 ## Part 1: Introduction
 ### #1 What is Design and Architecture?
 * The word *Architecture* get a lot of misunderstanding: it is often used in the context of something at a high level details (totally divorced from the low level details).
@@ -94,7 +94,7 @@ The tools have changed, and the hardware has changed, but the essence of softwar
 Software is composed of sequence, selection, iteration, and indirection.  
 Nothing more. Nothing less.
 ```
-## Part3: Design Principles
+## Part 3: Design Principles
 * The S.O.L.I.D principles tell us how to arrange our functions and data structures into classes, and how those classes should be interconnected.
 * A class is simply a coupled grouping of functions and data. The SOLID principles apply to those groupings.
 
