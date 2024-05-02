@@ -24,7 +24,7 @@ Unfortunately, software developers either focus on one to the exclusion of the o
 * When the machine violates those requirements, programmers get their debuggers out and fix the problem.
 #### Architecture
 * Software must be easy to change. The difficulty in making such a change should be proportional only to the **scope** of the change, and not to the **shape** of the change.
-* The problem is the the architecture of the system. The more it prefers one shape over another, the more likely new features will be harder and harder to fint into that structure.
+* The problem is the architecture of the system. The more it prefers one shape over another, the more likely new features will be harder and harder to fint into that structure.
 #### The Greater Value
 * There are systems that are practically impossible to change, because the cost of change exceeds the benefit of change.
 
@@ -357,12 +357,12 @@ Both monoliths and deployment components can make use of threads. Threads are no
 * A service is the strongest boundary. It's a process, genrally started from the command line or through an equivalent system call and it do not depend on its physical location.
 * Two communicating services may, or may not, operate in the same physical processor or multicore. The services assume that all communications take place over the network.
 * Communications across service boundaries are very slow compared to function calls.
-* The same rules apply to services as apply to local processes Lowerlevel services should “plug in” to higher-level services.
+* The same rules apply to services as apply to local processes Lower-level services should “plug in” to higher-level services.
 ### #19 Policy and Level
 ```
 Software systems are statements of policy.
 ```
-* Some those statements will describe how particular business rules are to be calculated. Others will describe how certain reports are to be formatted. Still others will describe howinput data are to be validated.
+* Some those statements will describe how particular business rules are to be calculated. Others will describe how certain reports are to be formatted. Still others will describe how input data are to be validated.
 #### Level
 * A level is the distance from the inputs and outputs.
 * The farther a policy is from both the inputs and the outputs of the system, the higher its level. The policies that manage input and output are the lowest-level policies in the system.
@@ -374,7 +374,7 @@ Software systems are statements of policy.
 * The interface of the entity consists of the functions that implement the business rules that operate on that data. 
 #### Use cases
 * Not all business rules are as pure as Entities. Some business rules make or save money for the business by defining and constraining the way that an automated system operates. These rules would not be used in a manual environment, because they make sense only as part of an automated system.
-* A use case is a description of the way that an automated system is used. It specifies the input to be provided by the usr, the output to be returned to the user, and the processing steps involved in producing that output.
+* A use case is a description of the way that an automated system is used. It specifies the input to be provided by the user, the output to be returned to the user, and the processing steps involved in producing that output.
 * Use cases contain the rules that specify how and when the business rules within the entities are invoked. Use cases control the dance of the entities.
 * A use case is an object. It has one or more functions that implement the application-specific business rules.
 * Entities have no knowledge of the use cases that control them.  
