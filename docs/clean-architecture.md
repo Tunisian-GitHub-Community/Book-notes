@@ -416,7 +416,8 @@ These architectures are:
     - Independent of the database.
     - Independent of any external agency.
 
-*******Please put a clean architecture image here********
+![Clean architecture image](https://github.com/Majdi-Zlitni/Book-notes/assets/60318289/755fde8a-bc53-4571-afac-a7bc37c9eaf0)
+
 
 #### The Dependency Rule
 In general, the further in you go, the higher level the software becomes. The outer circles are mechanisms. The inner circles are policies.
