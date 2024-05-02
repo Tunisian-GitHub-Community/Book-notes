@@ -416,7 +416,7 @@ These architectures are:
     - Independent of the database.
     - Independent of any external agency.
 
-*******Please put a clean architecture image here********
+![clean architecture schema](../static/img/clean_architecture.png)
 
 #### The Dependency Rule
 In general, the further in you go, the higher level the software becomes. The outer circles are mechanisms. The inner circles are policies.
@@ -552,4 +552,5 @@ same.
 "Although software does not wear out, it can be destroyed from within by unmanaged dependencies on firmware and hardware" - James Grenning
 ```
 -----------------------------------------
-These notes were written by [Ayoub Abidi](https://github.com/ayoub3bidi)
+These notes were written by [Ayoub Abidi](https://github.com/ayoub3bidi)  
+These notes were spell-checked by [Majdi Zlitni](https://github.com/Majdi-Zlitni)
