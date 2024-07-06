@@ -62,30 +62,7 @@ const config = {
         ],
       },
       footer: {
-        style: 'dark',
-        links: [
-          {
-            title: 'Connect with us',
-            items: [
-              {
-                label: 'Website',
-                href: 'https://www.githubtunisia.tn',
-              },
-              {
-                label: 'GitHub organization',
-                href: 'https://github.com/Tunisian-GitHub-Community',
-              },
-              {
-                label: 'Facebook page',
-                href: 'https://www.facebook.com/GitHubTunisia',
-              },
-              {
-                label: 'LinkedIn page',
-                href: 'https://www.linkedin.com/company/githubstunisian-community',
-              },
-            ],
-          },
-        ],
+        style: 'light',
         copyright: `Copyright © ${new Date().getFullYear()} | GitHub's Tunisian Community`,
       },
       prism: {
