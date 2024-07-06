@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# Welcome to **Book notes**!  
+# Welcome to Book notes!  
 
 The goal of this project is to share notes and resumes about programming books with the community.  
 
