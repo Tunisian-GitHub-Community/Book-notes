@@ -5,6 +5,11 @@
  */
 
 /* You can override the default Infima variables here. */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 :root {
   --ifm-color-primary: #c92235;
   --ifm-color-primary-dark: #b51f30;
@@ -24,4 +29,11 @@
   --ifm-color-primary-light: #dc6772;
   --ifm-color-primary-lighter: #df737d;
   --ifm-color-primary-lightest: #e7979f;
+}
+
+.navbar {
+  background-color: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 10px;
 }
