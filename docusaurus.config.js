@@ -63,12 +63,6 @@ const config = {
         },
         items: [
           {
-            type: 'doc',
-            docId: 'intro',
-            position: 'left',
-            label: 'Notes',
-          },
-          {
             href: 'https://github.com/Tunisian-GitHub-Community/Book-notes',
             label: 'See it on GitHub',
             position: 'right',
